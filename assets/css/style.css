@@ -1,0 +1,56 @@
+/* assets/css/style.css */
+@import 'variables.css';
+@import 'components.css';
+
+/* Layout specific styles can go here or in layout.css */
+
+/* Hero Section */
+.hero {
+    background-color: var(--color-primary-light);
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-content {
+    max-width: 600px;
+    position: relative;
+    z-index: 2;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: var(--spacing-sm);
+    color: var(--color-dark);
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: var(--color-text);
+    margin-bottom: var(--spacing-md);
+}
+
+/* Featured Products */
+.section-title {
+    text-align: center;
+    margin-bottom: var(--spacing-lg);
+}
+
+.section-title h2 {
+    font-size: 2.5rem;
+    margin-bottom: var(--spacing-xs);
+}
+
+.section-title p {
+    color: var(--color-text-light);
+    font-style: italic;
+}
+
+/* Product Grid */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--spacing-lg) var(--spacing-md);
+}
