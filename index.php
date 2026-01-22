@@ -1,5 +1,5 @@
 <?php
-// index.php
+
 
 require_once 'config/data.php';
 require_once 'includes/auth_functions.php';
